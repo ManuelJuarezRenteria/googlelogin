@@ -1,0 +1,12 @@
+{
+  "name": "GoogleSignin",
+  "displayName": "GoogleSignin",
+  "expo": {
+    "name": "GoogleSignin",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
