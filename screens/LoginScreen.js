@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 
 import{View, Text, StyleSheet, TouchableOpacity, Dimensions} from 'react-native';
-import Input from '../components/Input'
 
 import {
 GoogleSignin,
