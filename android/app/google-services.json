@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "941266571188",
+    "firebase_url": "https://correo-12f11.firebaseio.com",
+    "project_id": "correo-12f11",
+    "storage_bucket": "correo-12f11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941266571188:android:9f5be9b3b97322a0476ce1",
+        "android_client_info": {
+          "package_name": "com.googlesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941266571188-36of0u788pqendotihehcojs53tglk94.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.googlesignin",
+            "certificate_hash": "c35d81edc0f9465ba2ab611b697d3aa49e012b5c"
+          }
+        },
+        {
+          "client_id": "941266571188-gqpvf0l3dhokvf5g82lev056qh2q5d3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmuHJv2xrl8wSXJtIENiY3Iw4QmumUge8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941266571188-gqpvf0l3dhokvf5g82lev056qh2q5d3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

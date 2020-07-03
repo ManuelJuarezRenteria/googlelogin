@@ -1,14 +1,14 @@
 import React, {useEffect} from 'react';
 
 import{View, Text, StyleSheet, TouchableOpacity, Dimensions} from 'react-native';
- 
- 
+import Input from '../components/Input'
+
 import {
 GoogleSignin,
 GoogleSigninButton,
 statusCodes, } from '@react-native-community/google-signin';
 
-const App = () => {
+const LoginScreen = () => {
 useEffect(() => {
     GoogleSignin.configure({
         scopes: ['https://www.googleapis.com/auth/drive.readonly'], // what API 
@@ -57,7 +57,7 @@ disabled={this.state.isSgninInProgress} />
                 </View>
                 )
                 }
-            const {width, height } = Dimensions.get("App")
+            const {width, height } = Dimensions.get("screen")
 const styles = StyleSheet.create({
 })
-export default App
+export default LoginScreen

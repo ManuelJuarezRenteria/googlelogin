@@ -1429,6 +1429,11 @@
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
 
+"@react-native-community/google-signin@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@react-native-community/google-signin/-/google-signin-4.0.3.tgz#66fbdd469e5895ec787224334d480c1c867240e8"
+  integrity sha512-0RyMHAPTOejxXuHkcrVLJ9Co1hxG/b1shmtn29QSjZ9W8oLj23gyLhJI4jjca389jToVjr2HsXsDXfNU4CA2Uw==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.0.tgz#c8d68821a854c555bba172f3b06959a0039b236d"
@@ -2252,6 +2257,14 @@ chalk@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-3.0.0.tgz#3f73c2bf526591f574cc492c51e2456349f844e4"
   integrity sha512-4D3B6Wf41KOYRFdszmDqMCGq5VV/uMAB273JILmO+3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
+  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -3530,6 +3543,14 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.3
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
+
+gradle@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/gradle/-/gradle-1.2.3.tgz#e8ba568ec3ee0028c7c311bc6cb32a4071de26c2"
+  integrity sha512-rtWL1QzjelKC9kLcmUiJ5irmCS/Y63o7cqLZe8fboqVPK6yZ0n+kmCQsMltrsAkoYmdNiO57W+MnFjUgs/xtug==
+  dependencies:
+    chalk "^4.0.0"
+    cross-spawn "^5.1.0"
 
 graphql@^14.0.0:
   version "14.6.0"
@@ -5927,6 +5948,11 @@ react-native-gesture-handler@~1.6.1:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.4"
     prop-types "^15.7.2"
+
+react-native-google-signin@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-google-signin/-/react-native-google-signin-2.1.1.tgz#4281940eee88602b0181dd49affdf8c92980c85c"
+  integrity sha512-6l3fiLdX/bfhh0BoxGq+jGkagFsO+mrE/eRV4+3/0k8+FDxO90vdPpQdDiwlM5vWXRxWthTzMM09/jHw+4cvNw==
 
 react-native-reanimated@~1.9.0:
   version "1.9.0"
